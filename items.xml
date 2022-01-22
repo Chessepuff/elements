@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Homebrew Items</name>
+		<description>Chessepuff's Quality Homebrew Items</description>
+		<author url="">Chessepuff</author>
+		<update version="0.1.0">
+			<file name="items.xml" url=""/>
+		</update>
+	</info>
+
+	<!--Gear-->
+	<element name="Brass Braizer" type="Item" source="Homebrew" id="ID_HMBW_ITEM_BRASS_BRAZIER">
+		<description>
+			<p>A brass braizer meant to hold various flammable things while then burn.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">25</set>
+			<set name="weight" lb="15">15 lb.</set>
+			<set name="stackable">false</set>
+		</setters>
+	</element>
+		<element name="Find Familiar Charge" type="Item" source="Homebrew" id="ID_HMBW_ITEM_FIND_FAMILIAR_CHARGE">
+		<description>
+			<p>Charcoal, incense, and herbs and herbs in the amount neccisary to cast the spell Find Familiar once.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<!--Magic Items-->
+	<element name="Manastone" type="Magic Item" source="Homebrew" id="ID_HMBR_MAGIC_ITEM_MANASTONE">		
+		<description>
+			<p>Once per day while touching the Manastone, as a bounus action you can choose expended spellslots to recover. The spell slots can have a combined level that is equal to or less than half you wizard level rounded up.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+	<!--Treasure-->
+		<element name="Preserved Gnoll Bone" type="Item" source="Homebrew" id="ID_HMBR_ITEM_TRASH_OBJECT_0GP_1">
+		<description>
+			<p>The Bone of a gnoll preserved by some foul means. Why do you even have this?</p>
+		</description>
+		<setters>
+			<set name="keywords">trash,bone</set>
+			<set name="category">Treasure</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="stackable">true</set>
+			<set name="valuable">true</set>
+		</setters>
+	</element>
+</elements>
