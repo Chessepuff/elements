@@ -5,7 +5,7 @@
 		<description>Chessepuff's Quality Homebrew Items</description>
 		<author url="">Chessepuff</author>
 		<update version="0.1.0">
-			<file name="items.xml" url=""/>
+			<file name="items.xml" url="https://raw.githubusercontent.com/Chessepuff/elements/main/items.xml"/>
 		</update>
 	</info>
 
@@ -21,7 +21,7 @@
 			<set name="stackable">false</set>
 		</setters>
 	</element>
-		<element name="Find Familiar Charge" type="Item" source="Homebrew" id="ID_HMBW_ITEM_FIND_FAMILIAR_CHARGE">
+	<element name="Find Familiar Charge" type="Item" source="Homebrew" id="ID_HMBW_ITEM_FIND_FAMILIAR_CHARGE">
 		<description>
 			<p>Charcoal, incense, and herbs and herbs in the amount neccisary to cast the spell Find Familiar once.</p>
 		</description>

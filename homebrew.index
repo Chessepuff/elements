@@ -2,10 +2,10 @@
 <index>
 	<info>
 		<name>Homebrew</name>
-		<description>A collection of random homebrew</description>
+		<description>A collection of random homebrew from games i've played in and games i run.</description>
 		<author url="">Chessepuff</author>
 		<update version="0.1.0">
-			<file name="homebrew.index" url="" />
+			<file name="homebrew.index" url="https://raw.githubusercontent.com/Chessepuff/elements/main/homebrew.index" />
 		</update>
 	</info>
 	<files>
