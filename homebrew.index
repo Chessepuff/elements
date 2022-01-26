@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Homebrew</name>
+		<description>A collection of random homebrew</description>
+		<author url="">Chessepuff</author>
+		<update version="0.1.0">
+			<file name="homebrew.index" url="" />
+		</update>
+	</info>
+	<files>
+		<file name="items.xml" url="https://raw.githubusercontent.com/Chessepuff/elements/main/items.xml" />
+	</files>
+</index>
