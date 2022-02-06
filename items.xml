@@ -4,7 +4,7 @@
 		<name>Homebrew Items</name>
 		<description>Chessepuff's Quality Homebrew Items</description>
 		<author url="">Chessepuff</author>
-		<update version="0.1.0">
+		<update version="0.1.1">
 			<file name="items.xml" url="https://raw.githubusercontent.com/Chessepuff/elements/main/items.xml"/>
 		</update>
 	</info>
@@ -53,6 +53,30 @@
 		</description>
 		<setters>
 			<set name="keywords">trash,bone</set>
+			<set name="category">Treasure</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="stackable">true</set>
+			<set name="valuable">true</set>
+		</setters>
+	</element>
+	<element name="Black Teeth" type="Item" source="Homebrew" id="ID_HMBR_ITEM_TRASH_OBJECT_0GP_2">
+		<description>
+			<p>Teeth black in color from some unknown creature. Why do you even have this?</p>
+		</description>
+		<setters>
+			<set name="keywords">trash,bone</set>
+			<set name="category">Treasure</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="stackable">true</set>
+			<set name="valuable">true</set>
+		</setters>
+	</element>
+	<element name="Imp's Tail" type="Item" source="Homebrew" id="ID_HMBR_ITEM_TRASH_OBJECT_0GP_3">
+		<description>
+			<p>The severed tail of an imp it's poison spent. Why do you even have this?</p>
+		</description>
+		<setters>
+			<set name="keywords">trash,flesh</set>
 			<set name="category">Treasure</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="stackable">true</set>
