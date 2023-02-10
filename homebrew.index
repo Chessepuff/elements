@@ -4,11 +4,13 @@
 		<name>Homebrew</name>
 		<description>A collection of random homebrew from games i've played in and games i run.</description>
 		<author url="">Chessepuff</author>
-		<update version="0.1.0">
+		<update version="0.1.01">
 			<file name="homebrew.index" url="https://raw.githubusercontent.com/Chessepuff/elements/main/homebrew.index" />
 		</update>
 	</info>
 	<files>
 		<file name="items.xml" url="https://raw.githubusercontent.com/Chessepuff/elements/main/items.xml" />
+		<file name="wizard-warwizard.xml" url="https://raw.githubusercontent.com/Chessepuff/elements/main/wizard-warwizard.xml" />
+		<file name="spells" url="https://raw.githubusercontent.com/Chessepuff/elements/main/spells.xml" />
 	</files>
 </index>
