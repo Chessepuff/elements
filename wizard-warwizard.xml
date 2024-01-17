@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>War Wizard</name>
-		<description>The War Wizard</description>
+		<description>War Wizard</description>
 		<author url="">Chessepuff</author>
 		<update version="0.1.0">
 			<file name="wizard-warwizard.xml" url="https://raw.githubusercontent.com/Chessepuff/elements/main/wizard-warwizard.xml" />
@@ -17,7 +17,7 @@
 			<div element="ID_HMBW_ARCHETYPE_FEATURE_WAR_WIZARD_TACTICAL_WIT" />
 			<div element="ID_HMBW_ARCHETYPE_FEATURE_WAR_WIZARD_WAR_SAVANT" />
 			<div element="ID_HMBW_ARCHETYPE_FEATURE_WAR_WIZARD_POWER_SURGE" />
-			<div element="ID_HMBW_ARCHETYPE_FEATURE_WAR_WIZARD_MAGIC" />
+			<div element="ID_HMBW_ARCHETYPE_FEATURE_WAR_WIZARD_DURABLE_MAGIC" />
 			<div element="ID_HMBW_ARCHETYPE_FEATURE_WAR_WIZARD_DEFLECTING_SHROUD" />
 		</description>
 		<sheet display="false" />
@@ -54,10 +54,10 @@
 
 	<element name="War Savant" type="Archetype Feature" source="Homebrew" id="ID_HMBW_ARCHETYPE_FEATURE_WAR_WIZARD_WAR_SAVANT">
 		<description>
-			<p>Beginning when you select this school at 2nd level, the gold and time you must spendot copy Evocation or Abjuratoin Spels into your spellbook is cut by 25%.</p>
+			<p>Beginning when you select this school at 2nd level, the gold and time you must spendot copy Evocation or Abjuratoin spells into your spellbook is cut by 25%.</p>
 		</description>
 		<sheet>
-			<description>The gold and time you must spend to copy Evocation or Abjuratoin Spels into your spellbook is cut by 25%.</description>
+			<description>The gold and time you must spend to copy Evocation or Abjuratoin spells into your spellbook is cut by 25%.</description>
 		</sheet>
 	</element>
 

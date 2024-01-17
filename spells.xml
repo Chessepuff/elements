@@ -7,7 +7,7 @@
 		</update>
 	</info>
     <element name="Absorb Elements (War)" type="Spell" source="Homebrew" id="ID_HMBW_SPELL_ABSORB_ELEMENTS_WAR">
-        <supports>Wizard (War Wizard),</supports>
+        <supports>Wizard</supports>
         <description>
             <p>The spell captures some of the incoming energy, lessening its effect on you and storing it for your next melee attack. You have resistance to the triggering damage type until the start of your next turn. The caster may store 50% of the amount and type of damage resisted to add to the damage output of a future spell.The caster must maintain concentration to control and store the energies.If the casters concentration falters all stored damage dissipates.Provided concentration is maintained the damage is able to stack.The duration is refreshed on subsequent casts.Alternatively if cast at 2nd level or higher the caster may create a power surge.</p>
             <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a slot of 2nd level store 75% of resisted damage, 3rd level 100%, 4th level 150%, and 5th level 200%.</p>
@@ -16,8 +16,8 @@
             <set name="keywords"></set>
             <set name="level">1</set>
             <set name="school">Abjuration</set>
-            <set name="time">1 reaction, which you take when you take acid, cold, fire, lightning, or thunder damage</set>
-            <set name="duration">1 round</set>
+            <set name="time">1 reaction, when you take when you take acid, cold, fire, lightning, or thunder damage</set>
+            <set name="duration">1 Minute, Concentration</set>
             <set name="range">Self</set>
             <set name="hasVerbalComponent">false</set>
             <set name="hasSomaticComponent">true</set>
@@ -27,8 +27,8 @@
             <set name="isRitual">false</set>
         </setters>
     </element>	
-	<element name="Shield (War)" type="Spell" source="Player’s Handbook" id="ID_HMBW_SPELL_SHIELD_WAR">
-		<supports>Wizard (War Wizard)</supports>
+	<element name="Shield (War)" type="Spell" source="Homebrew" id="ID_HMBW_SPELL_SHIELD_WAR">
+		<supports>Wizard</supports>
 		<description>
 			<p>An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from <i>magic missile</i>.If the targeting attack is a spell and shield would prevent the damage the caster may create a power surge.</p>
 		</description>

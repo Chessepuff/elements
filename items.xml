@@ -10,6 +10,16 @@
 	</info>
 
 	<!--Gear-->
+	<element name="Vial, Plantinum" type="Item" source="Homebrew" id="ID_HMBW_ITEM_VIAL_PLATINUM">
+		<description>
+			<p>A vial inlaid with arcane symbols in platinum filigree.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">400</set>
+			<set name="weight" lb="0">-</set>
+		</setters>
+	</element>	
 	<element name="Robes, Black" type="Item" source="Homebrew" id="ID_HMBW_ITEM_BLACK_ROBES">
 		<description>
 			<p>A set of hooded jet black robes with volumus sleeves.</p>
@@ -39,6 +49,17 @@
 			<set name="category">Adventuring Gear</set>
 			<set name="cost" currency="gp">10</set>
 			<set name="weight" lb="1">1 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Summon Devil Charge" type="Item" source="Homebrew" id="ID_HMBW_ITEM_SUMMON_DEVIL_CHARGE">
+		<description>
+			<p>Dust Golden 2kg, Osseous Pulverized, Ichor of Caller. Paired with the fleshy page in your spellbook this will allow the summoning of a devil. </p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">220.5</set>
+			<set name="weight" lb="9">9 lb.</set>
 			<set name="stackable">true</set>
 		</setters>
 	</element>
@@ -82,7 +103,7 @@
 		<setters>
 			<set name="category">Adventuring Gear</set>
 			<set name="cost" currency="gp">5</set>
-			<set name="weight" lb="0.5">0.5 lb.</set>
+			<set name="weight" lb="0.5">½ lb.</set>
 			<set name="stackable">false</set>
 		</setters>
 	</element>
